@@ -118,4 +118,4 @@ console.log(b); // This will cause an error: ReferenceError: Cannot access 'b' b
 console.log(j);// This will cause an error: ReferenceError: Cannot access 'j' before initialization
 var j=5;
 
-console.log("saboor");
+console.log("Abdul Saboor");
