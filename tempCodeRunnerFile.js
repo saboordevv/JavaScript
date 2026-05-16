@@ -1,2 +1,2 @@
-let str6 = "My name is abdul saboor";
-console.log(str6.search(/Abdul Saboor/i));
+let str7 = "I love js and i like to work in js and js is very important to learn";
+// console.log(str7.match("js"));

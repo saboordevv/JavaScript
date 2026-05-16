@@ -85,8 +85,8 @@
 // console.log(str2.indexOf('name'));
 
 //! last indexof method in js
-let str5 = "Iam a js developer and i love to do code in js";
-console.log(str5.lastIndexOf('js'));//it will find value from last 
+// let str5 = "Iam a js developer and i love to do code in js";
+// console.log(str5.lastIndexOf('js'));//it will find value from last 
 
 
 
@@ -108,8 +108,24 @@ console.log(str5.lastIndexOf('js'));//it will find value from last
 // | Start position   | ❌ No           | ✔️ Yes      |
 // | Case-insensitive | ✔️ (via regex) | ❌           |
 
-let str6 = "My name is abdul saboor";
-console.log(str6.search(/Abdul Saboor/i));
+// let str6 = "My name is abdul saboor";
+// console.log(str6.search(/Abdul Saboor/i));
+
+
+//! Match function
+//?match() searches a string for a specified pattern and returns the matched results.
+// let str7 = "I love js and i like to work in js and js is very important to learn";
+// console.log(str7.match("js"));
+
+//! matchall
+//?matchAll() returns all matches with complete details including capturing groups and indexes.
+let str8 = "I love js and i like to work in js and js is very important to learn";
+
+let results = str8.matchAll(/Js/gi);
+
+for (let item of results) {
+    console.log(item);
+}
 
 
 
