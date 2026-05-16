@@ -119,13 +119,45 @@
 
 //! matchall
 //?matchAll() returns all matches with complete details including capturing groups and indexes.
-let str8 = "I love js and i like to work in js and js is very important to learn";
+// let str8 = "I love js and i like to work in js and js is very important to learn";
 
-let results = str8.matchAll(/Js/gi);
+// let results = str8.matchAll(/Js/gi);
 
-for (let item of results) {
-    console.log(item);
-}
+// for (let item of results) {
+//     console.log(item);
+// }
+
+//! Includes 
+//? includes() checks whether a string contains a specific substring and returns true or false.
+// let str9 = "I love js and i like to work in js and js is very important to learn";
+// let results = str9.includes('js');
+// console.log(results);
+
+
+// let text = "I love JavaScript";
+// console.log(text.includes("Java"));
+// The method includes("Java") checks whether the substring "Java" exists inside the string.
+// "JavaScript" contains "Java" at the beginning.
+
+//!startsWith() checks whether a string begins with a specified substring and returns true or false.
+// let text = "I love JavaScript";
+// console.log(text.startsWith("I"));
+// console.log(text.startsWith("love"));
+
+//!endsWith() checks whether a string ends with a specified substring and returns true or false.
+// let text = "I love JavaScript";
+// console.log(text.endsWith("Script"));
+
+//!Extracting string
+//?extracting part of a string means getting a substring from a larger string. There are a few core methods, and each behaves slightly differently
+//?slice() is a string method used to extract a portion of a string and return it as a new string, without changing the original string.
+
+// let str = "JavaScript";
+// let result = str.slice(0, 4);
+// console.log(result);
+
+
+
 
 
 
